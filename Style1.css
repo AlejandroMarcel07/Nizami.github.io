@@ -11,6 +11,33 @@
 
 }
 
+.btnInicio{
+  background-color: #E47C86;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  color: white;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #E47C86;
+}
+
+.logo-img {
+  width: 30px;
+  margin-right: 10px;
+}
+
 .logo-img{
     margin-left: 10px;
     width: 35px;
@@ -117,7 +144,8 @@ border-radius: 20px;
     text-decoration: none;
     cursor: pointer;
   }
-  
+
+ 
 
 
 

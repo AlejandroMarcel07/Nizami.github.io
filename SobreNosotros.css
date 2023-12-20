@@ -2,14 +2,36 @@
 
 .navbar{
     
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000; 
-    background-color: #ffffff; 
-  
-  }
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+  background-color: #ffffff; 
+
+}
+
+.btnInicio{
+  background-color: #E47C86;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  color: white;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #E47C86;
+}
   
   .logo-img{
       margin-left: 10px;
@@ -33,3 +55,38 @@
     border-radius: 20px;
     
 }
+
+.about-us-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    border-radius: 10px;
+  }
+  
+  .about-us-section h2 {
+    color: #333;
+  }
+  
+  .about-content {
+    text-align: justify;
+  }
+  
+  .about-section {
+    margin-bottom: 30px;
+  }
+  
+  .about-section h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .about-section p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .about-section p:last-child {
+    margin-bottom: 0;
+  }
+  
