@@ -1,0 +1,99 @@
+
+
+.navbar{
+    
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+  background-color: #ffffff; 
+
+}
+
+.logo-img{
+    margin-left: 10px;
+    width: 35px;
+    height: 30px;
+}
+
+.columna-anuncio{
+    margin-top: 50px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.columna-anuncio .anuncio{
+
+    background: linear-gradient(90deg, rgba(69, 217, 203, 0.33) 0%, rgba(210, 76, 227, 0.34) 97%);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+
+.gallery{
+
+width: 120px;
+margin: 20px auto;
+columns: 4;
+column-gap: 20px;
+}
+
+.gallery .box{
+
+
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+.gallery .box img{
+max-width: 100%;
+border-radius: 20px;
+}
+
+
+@media(max-width: 1600px){
+
+    .gallery{
+
+        width: calc(100% - 40px);
+        columns: 5;
+    }
+
+}
+
+@media(max-width: 1200px){
+
+    .gallery{
+
+    
+        columns: 3;
+    }
+
+}
+
+
+@media(max-width: 768px){
+
+    .gallery{
+
+    
+        columns: 3;
+    }
+
+}
+
+@media(max-width: 480px){
+
+    .containerPrincipal{
+
+    
+        columns: 1;
+    }
+
+}
