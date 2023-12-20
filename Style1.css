@@ -75,7 +75,7 @@ border-radius: 20px;
   }
   
   .modal-content {
-    margin: 200px auto 0;
+    margin: 120px auto 0;
     display: block;
     max-width: 80vw; /* Ajusta el tamaño máximo de la imagen al 80% del ancho de la pantalla */
     max-height: 80vh; /* Ajusta el tamaño máximo de la imagen al 80% de la altura de la pantalla */
@@ -84,7 +84,7 @@ border-radius: 20px;
   .close {
     color: white;
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 25px;
     font-size: 50px;
     font-weight: bold;
