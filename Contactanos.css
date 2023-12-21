@@ -56,8 +56,9 @@
 
   .card {
     border: none;
+    margin-top: 20px;
     border-radius: 10px;
-    background-color:rgb(252, 248, 248);
+    background-color: #f9f9f9;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.4);
   }
   .card-title {

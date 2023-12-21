@@ -104,36 +104,36 @@ border-radius: 20px;
     
     display: block;
     position: absolute;
-    top: 70px;
-    right: 80px; /* Ajusta el margen superior para mover el enlace hacia abajo */
+    top: 80px;
+    right: 200px; /* Ajusta el margen superior para mover el enlace hacia abajo */
   }
 
   #downloadLink button{
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     height: 30px;
     width: 150px ;
     font-size: 13px;
     /* global 94%+ browsers support */
-    background: linear-gradient(90deg, rgba(31, 17, 206, 1) 0%, rgba(229, 43, 43, 1) 100%);
-    color: white;
+   background-color: white;
+    color: rgb(90, 90, 90);
     font-weight: bold;
 
   }
   
   .modal-content {
-    margin: 110px auto 0;
+    margin: 120px auto 0;
     display: block;
-    max-width: 80vw; /* Ajusta el tamaño máximo de la imagen al 80% del ancho de la pantalla */
-    max-height: 80vh; /* Ajusta el tamaño máximo de la imagen al 80% de la altura de la pantalla */
+    max-width: 70vw; /* Ajusta el tamaño máximo de la imagen al 80% del ancho de la pantalla */
+    max-height: 70vh; /* Ajusta el tamaño máximo de la imagen al 80% de la altura de la pantalla */
   }
   
   .close {
     color: white;
     position: absolute;
-    top: 50px;
-    right: 25px;
-    font-size: 40px;
+    top: 73px;
+    right: 62px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
   }
