@@ -1,4 +1,40 @@
 
+/* Estilos para el modo claro */
+body {
+  background-color: #ffffff; /* Color de fondo en modo claro */
+  color: #000000; /* Color del texto en modo claro */
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode  {
+  background-color: #1e1e1e; /* Color de fondo en modo oscuro */
+  color: #ffffff; /* Color del texto en modo oscuro */
+  .nav-link{
+    color: white;
+  }
+
+  .navbar-collapse{
+    background-color: #212529;
+    border: 3px  solid #333;
+  }
+
+  .purchase-process{
+    background-color: #1e1e1e;
+  }
+
+  .process-step{
+    background-color: #1e1e1e;
+  }
+
+  .process-step h3{
+    color: white;
+  }
+
+  .process-step p{
+    color: rgba(255, 255, 255, 0.692);
+  }
+
+}
 
 .navbar{
     
@@ -80,6 +116,7 @@
     background-color: white;
     border-radius: 8px;
     padding: 20px;
+    margin: 10px;
     box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
     transition: transform 0.3s ease-in-out;
   }
@@ -103,3 +140,24 @@
     margin-bottom: 0;
   }
   
+
+  /* Añade estilos personalizados para la posición del menú desplegable */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 73px; /* Ajusta la posición vertical según tu necesidad */
+    right: -100%; /* Para ocultar inicialmente el menú */
+    width: 230px; /* Ancho del menú desplegable */
+    height: 30vh; /* Altura del menú para ocupar toda la altura de la ventana */
+    background-color: rgb(241, 238, 238); /* Color de fondo del menú */
+    z-index: 1000; /* Asegura que esté por encima del resto de elementos */
+    padding-top: 20px; /* Espacio superior para evitar la superposición con la barra de navegación */
+    transition: right 0.3s ease-in-out; /* Agrega una transición suave */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para un aspecto flotante */
+    border-radius: 20px 0 0 20px;
+    border: 3px  solid #eaeaebc7;
+  }
+  .navbar-collapse.show {
+    right: 0; /* Muestra el menú cuando está abierto */
+  }
+}
