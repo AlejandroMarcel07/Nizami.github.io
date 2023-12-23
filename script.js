@@ -24,3 +24,27 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
+  // Obtener el interruptor de modo oscuro
+const modoOscuroSwitch = document.getElementById('modoOscuroSwitch');
+
+// Obtener la barra de navegación
+const navbar = document.querySelector('.navbar');
+
+
+
+// Escuchar cambios en el interruptor
+modoOscuroSwitch.addEventListener('change', () => {
+  document.body.classList.toggle('dark-mode'); // Alternar la clase dark-mode en el body
+});
+
+
+// Escuchar cambios en el interruptor
+modoOscuroSwitch.addEventListener('change', () => {
+  if (modoOscuroSwitch.checked) {
+    navbar.classList.remove('navbar-light', 'bg-light');
+    navbar.classList.add('navbar-dark', 'bg-dark');
+  } else {
+    navbar.classList.remove('navbar-dark', 'bg-dark');
+    navbar.classList.add('navbar-light', 'bg-light');
+  }
+});

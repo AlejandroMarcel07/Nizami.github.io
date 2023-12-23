@@ -12,7 +12,7 @@
   }
 
   .btnInicio{
-    background-color: #E47C86;
+    background-color: #46B5FE;
     border-radius: 5px;
     font-size: 15px;
     font-weight: 500;
@@ -30,7 +30,7 @@
   }
   
   .navbar-nav .nav-link:hover {
-    color: #E47C86;
+    color: #46B5FE;
   }
   
   .logo-img{
