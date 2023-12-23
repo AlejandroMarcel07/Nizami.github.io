@@ -1,3 +1,25 @@
+* Estilos para el modo claro */
+body {
+  background-color: #ffffff; /* Color de fondo en modo claro */
+  color: #000000; /* Color del texto en modo claro */
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode  {
+  background-color: #1e1e1e; /* Color de fondo en modo oscuro */
+  color: #ffffff; /* Color del texto en modo oscuro */
+  .nav-link{
+    color: white;
+  }
+
+  .card{
+    background-color: #1e1e1e;
+    color: white;
+  }
+
+}
+
+
 .navbar{
     
     background-color: rgb(255, 255, 255);

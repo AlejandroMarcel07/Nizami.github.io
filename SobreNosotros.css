@@ -1,4 +1,39 @@
+* Estilos para el modo claro */
+body {
+  background-color: #ffffff; /* Color de fondo en modo claro */
+  color: #000000; /* Color del texto en modo claro */
+}
 
+/* Estilos para el modo oscuro */
+body.dark-mode  {
+  background-color: #1e1e1e; /* Color de fondo en modo oscuro */
+  color: #ffffff; /* Color del texto en modo oscuro */
+  .nav-link{
+    color: white;
+  }
+
+
+  .about-us-section h2{
+    color: white;
+  }
+
+  .about-section h4 {
+    color: white;
+  }
+
+  .about-us-section{
+    background-color: #1e1e1e;
+    
+  }
+
+  .about-content {
+    color:rgba(255, 255, 255, 0.692);
+  }
+  .about-section p{
+    color: rgba(255, 255, 255, 0.692);
+  }
+
+}
 
 .navbar{
     
@@ -60,6 +95,7 @@
     background-color: #f9f9f9;
     padding: 50px 0;
     border-radius: 10px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.4);
   }
   
   .about-us-section h2 {
