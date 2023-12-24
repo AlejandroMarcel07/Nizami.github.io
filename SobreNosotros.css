@@ -52,9 +52,6 @@ body.dark-mode {
   width: 90%;
 }
 
-
-
-
 .nav-link {
   text-align: right; /* Centra el texto dentro de cada enlace */
   font-size: 18px;
@@ -67,17 +64,6 @@ body.dark-mode {
 }
 
 
-
-
-
-.btnInicio {
-  background-color: #46b5fe;
-  border-radius: 5px;
-  font-size: 15px;
-  font-weight: 500;
-  border: none;
-  color: white;
-}
 
 .navbar-brand {
   font-weight: bold;
