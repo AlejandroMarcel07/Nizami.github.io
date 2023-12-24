@@ -19,7 +19,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm navbar-with-shadow">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img
             src="Img/github-logo-9BBCA663A4-seeklogo.com.png"
@@ -29,10 +29,7 @@
           />
           Taller Nizami
         </a>
-        <div class="form-check form-switch">
-          <input class="form-check-input" type="checkbox" id="modoOscuroSwitch">
-          <label class="form-check-label" for="modoOscuroSwitch"><i class="bi bi-moon-stars-fill"></i></label>
-        </div>
+       
         <button
           class="navbar-toggler"
           type="button"
@@ -42,30 +39,35 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span  class="bi bi-menu-button-wide-fill"> </span>
         </button>
     
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav text-center">
+          <ul class="navbar-nav justify-content-around"> <!-- Cambios realizados aquí -->
             <li class="nav-item">
-              <a class="nav-link" href="index.html">
-              Inicio
-              </a>
+              <a class="nav-link" href="index.html"><i class="bi bi-house"></i> Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ProcesoCompra.html">Proceso de compra</a>
+              <a class="nav-link" href="ProcesoCompra.html"><i class="bi bi-bag"></i>Proceso de compra</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Contactanos.html"> Contactanos</a>
+              <a class="nav-link" href="Contactanos.html"><i class="bi bi-chat-square-text"></i>Contactanos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="SobreNosotros.html"> <button class="btnInicio">Sobre nosotros</button></a>
+              <a class="nav-link" href="SobreNosotros.html" style=" border-bottom: 3px solid #46b5fe; border-radius: 5px; color: #46b5fe;"><i class="bi bi-info-square"></i> Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="modoOscuroSwitch">
+                <label class="form-check-label" for="modoOscuroSwitch"> <i class="bi bi-moon-stars"></i></label>
+              </div>
             </li>
           </ul>
         </div>
        
       </div>
     </nav>
+    
 
     <div class="container-fluid">
       <div class="row">
