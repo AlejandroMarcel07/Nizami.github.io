@@ -177,14 +177,13 @@ body.dark-mode {
   }
 
   .navbar-nav {
-    width: 90%;
+    width: 100%;
   }
 
  
   .nav-link{
     text-align: left;
     margin-top: 10px;
-  
   }
 
   .form-check{
