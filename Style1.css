@@ -63,7 +63,7 @@ body.dark-mode  {
 
 .columna-anuncio {
   margin-top: 50px;
-  height: 200px;
+  height: 150px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -77,7 +77,7 @@ body.dark-mode  {
   );
   height: 100%;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 11px;
 }
 
 .gallery {
@@ -95,7 +95,7 @@ body.dark-mode  {
 
 .gallery .box img {
   max-width: 100%;
-  border-radius: 20px;
+  border-radius: 11px;
 }
 
 /* Estilos adicionales para el modal y el botón de cierre */
