@@ -1,2 +1,2 @@
-Este es una pagina web de prueba para 
-visualizar el diseño estilo pinterest.
+Pagina web estilo pinterest 
+LINK PARA VER LA PAGINA: "https://alejandromarcel07.github.io/Nizami.github.io/"
